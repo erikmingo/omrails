@@ -1,5 +1,5 @@
-/*$baseFontFamily: Oxygen;
-@import url(http://fonts.googleapis.com/css?family=Oxygen);*/
+$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
 $navbarBackgroundHighlight: white;
 $navbarBackground: white;
 $btnPrimaryBackground: green;
@@ -9,8 +9,13 @@ $btnPrimaryBackground: green;
 body {
 	padding-top: 60px;
 }
-@import 'bootstrap-responsive';
 
+@import 'bootstrap-responsive';
+.hero-unit {
+	h1 {
+		padding-bottom: 15px;
+	}	
+}
 .navbar-inner {
 	@include box-shadow(none !important);
 	border: 0;
