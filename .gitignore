@@ -23,3 +23,5 @@ doc/
 .idea
 .project
 
+/public/system
+# Ignore paperclip upload files
