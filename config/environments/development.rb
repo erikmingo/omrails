@@ -37,11 +37,7 @@ Omrails::Application.configure do
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
 #s3 for paperclip
-  config.paperclip_defaults = {
-  
-  }
-}
-  
+
 
 end
 
